@@ -37,7 +37,7 @@ Today (YYYYmmDD) : <% out.println(new SimpleDateFormat("YYYYmmDD").format(date))
         Current Time : <%= new Date(Calendar.getInstance().getTimeInMillis()) %>
 
     <br>
-    -- 알림창 --
+    -- 알림창 -- 원준희 왔다감
     <br>
     <button onclick="alert('알림창!')" id = "alert">알림창 띄우기 by Tag Property</button>
     <button id="byDom"> 알림창 by DOM</button>
