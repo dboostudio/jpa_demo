@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a, address, small, strong, time,
+dl, dt, dd, ol, ul, li,
+form, label, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, figcaption, footer, header, main, nav, section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+article, aside, figcaption, figure,
+header, footer, main, menu, nav, section{
+    display: block;
+}
+span{
+    display: inline-block;
+}
+ol, ul {
+    list-style: none;
+}
+img{
+    display: block;
+}
+button, input[type=button]{
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.hide{
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
