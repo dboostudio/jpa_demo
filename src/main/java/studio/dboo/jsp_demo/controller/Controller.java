@@ -10,8 +10,4 @@ public class Controller {
         return "index";
     }
 
-    @RequestMapping(value = "/userInfo")
-    public String userInfo() {
-        return "index";
-    }
 }
